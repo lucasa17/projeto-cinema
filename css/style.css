@@ -44,6 +44,19 @@ h2{
     display:inline-block;
 }
 
+footer{
+    position: relative;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    background-color: rgb(150, 140, 241);
+    color: darkblue;
+    border-radius: 15px;
+}
+
 .link_index{
     cursor: auto;
 }
@@ -67,20 +80,7 @@ section{
   min-height: 89vh;
 }
 
-footer{
-    position: relative;
-    width: 40%;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 50px;
-    background-color: rgb(150, 140, 241);
-    color: darkblue;
-    border-radius: 15px;
-}
-
-.city_select{
+.selected{
     border-bottom: 2px darkblue solid;
 }
 
@@ -108,4 +108,5 @@ footer{
 
 [data-category="tomorrow"]{
     background-color: darkblue;
+
 }
